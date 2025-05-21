@@ -86,6 +86,10 @@ section {
   text-decoration: underline;
 }
 
+.projects h2 {
+  text-align: center;
+}
+
 .classes {
   padding: 2em;
   background-color: #fff5f5;
