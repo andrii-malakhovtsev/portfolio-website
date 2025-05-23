@@ -131,6 +131,42 @@ section {
   text-decoration: underline;
 }
 
+/* For ONU-classes */
+
+/* ONU Blue-Cyan Theme */
+.onu-classes {
+  background-color: #e6f7ff;  /* Very light cyan-blue background */
+  border-radius: 8px;        /* Optional: rounded corners */
+}
+
+.onu-classes h2 {
+  color: #0077b6;           /* Deep cyan-blue for heading */
+  border-bottom: 2px solid #00b4d8;  /* Lighter cyan border */
+}
+
+.onu-classes .class {
+  border-left: 4px solid #0096c7;  /* Medium cyan-blue accent */
+  background-color: #f8fdff;       /* Slightly off-white */
+  box-shadow: 0 2px 4px rgba(0, 180, 216, 0.1); /* Cyan tinted shadow */
+}
+
+.onu-classes .class h3 {
+  color: #0077b6;           /* Matching heading color */
+}
+
+.onu-classes .class a {
+  color: #00b4d8;           /* Bright cyan for links */
+  background-color: rgba(0, 180, 216, 0.1); /* Subtle background */
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.onu-classes .class a:hover {
+  color: #ffffff;
+  background-color: #0096c7; /* Darker cyan on hover */
+  text-decoration: none;
+}
+
 /* Footer */
 footer {
   background-color: #1e1e2f;
@@ -173,3 +209,13 @@ body {
   color: #003c3c;
   transform: translateY(-2px);
 }
+
+/* Navigation Tab for Schools */
+
+.navbar.schools-nav {
+  background-color: #8b732a;
+}
+.navbar.schools-nav .nav-button {
+  background-color: #a88f3d;
+}
+
