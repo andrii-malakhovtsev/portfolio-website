@@ -1,1 +1,1 @@
-https://malandrii.github.io/portfolio-website/
+https://andrii-malakhovtsev.com/
