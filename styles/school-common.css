@@ -35,6 +35,13 @@
   font-weight: bold;
 }
 
+.class a {
+  color: #b22222;
+  background-color: rgba(216, 0, 0, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
 .class a:hover {
   text-decoration: underline;
 }
