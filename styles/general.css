@@ -124,6 +124,10 @@ footer {
   transform: translateY(-2px);
 }
 
+.nav-button.active {
+  background-color: #2595f1;
+}
+
 .navbar.schools-nav {
   background-color: #1e1e1e;
 }
