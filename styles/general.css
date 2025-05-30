@@ -125,12 +125,13 @@ footer {
 }
 
 .nav-button.active {
-  background-color: #2595f1;
+  background-color: #1d96f9;
 }
 
 .navbar.schools-nav {
   background-color: #1e1e1e;
 }
+
 .navbar.schools-nav .nav-button {
   background-color: #818182;
 }
@@ -143,12 +144,12 @@ footer {
 
 #onu-link:hover,
 #onu-link.active {
-  color: #799cbf;
+  color: #7ea9d4;
   background-color: white;
 }
 
 #wsu-link:hover,
 #wsu-link.active  {
-  color: #c2a059;
+  color: #d6b46a;
   background-color: #3e693c;
 }
