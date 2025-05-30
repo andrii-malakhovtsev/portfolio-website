@@ -1,0 +1,42 @@
+.classes {
+  padding: 2em;
+  background-color: #fff5f5;
+}
+
+.classes h2 {
+  color: #b22222;
+  border-bottom: 2px solid #b22222;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.class {
+  border-left: 4px solid #b22222;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class h3 {
+  color: #b22222;
+  margin-top: 0;
+}
+
+.class p {
+  margin: 0.5em 0;
+}
+
+.class a {
+  display: inline-block;
+  margin-top: 1em;
+  color: #b22222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.class a:hover {
+  text-decoration: underline;
+}
+
+

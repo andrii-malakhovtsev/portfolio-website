@@ -1,0 +1,32 @@
+.onu-classes {
+  background-color: #e6f7ff;
+  border-radius: 8px;
+}
+
+.onu-classes h2 {
+  color: #0077b6;
+  border-bottom: 2px solid #00b4d8;
+}
+
+.onu-classes .class {
+  border-left: 4px solid #0096c7;
+  background-color: #f8fdff;
+  box-shadow: 0 2px 4px rgba(0, 180, 216, 0.1);
+}
+
+.onu-classes .class h3 {
+  color: #0077b6;
+}
+
+.onu-classes .class a {
+  color: #00b4d8;
+  background-color: rgba(0, 180, 216, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.onu-classes .class a:hover {
+  color: #ffffff;
+  background-color: #0096c7;
+  text-decoration: none;
+}
