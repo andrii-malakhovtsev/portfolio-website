@@ -1,35 +1,41 @@
-/* ========== resources.css ========== */
-
 /* Adjust project section layout */
 .projects {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 /* Style project containers */
 .project {
   border-radius: 6px;
   transition: box-shadow 0.2s ease;
+  padding: 12px 16px;
+  background-color: #f9f9f9;
+  margin: 0;
 }
 
-.project:hover {
-  box-shadow: 0 4px 12px rgba(0, 122, 204, 0.15);
-}
-
-/* Refined link appearance */
+/* Link appearance */
 .project > a {
   font-size: 1.1rem;
   font-weight: bold;
   color: #005a9e;
   text-decoration: underline;
-  text-underline-offset: 2px; /* optional, moves underline a bit down for aesthetics */
+  text-underline-offset: 2px;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Make sure paragraph doesn't introduce extra spacing */
+.project p {
+  margin: 0.5rem 0 0 0;
 }
 
 .project > a:hover {
-  text-decoration: underline; /* keeps it consistent, or remove entirely if not needed */
+  text-decoration: underline;
 }
-
 
 /* Typography for category labels */
 .project p strong {
@@ -55,46 +61,51 @@
   color: #444;
 }
 
-/* Highlight grades if needed */
+/* Grade highlight hooks */
 .project ul li::after {
   content: "";
   display: inline-block;
   margin-left: 5px;
 }
 
-/* Optional: use color cues for grades */
 .project ul li:has(> span.grade-A) {
   color: #2e7d32;
 }
+
 .project ul li:has(> span.grade-B) {
   color: #1565c0;
 }
+
 .project ul li:has(> span.grade-C),
 .project ul li:has(> span.grade-D) {
   color: #ef6c00;
 }
 
-/* Spacing between project sections */
+/* Divider styling */
 .project hr {
   margin: 1rem 0;
   border: none;
   border-top: 1px solid #ccc;
 }
 
-/* Grade color styling */
+/* Grade colors */
 .grade-a {
-  color: #2e8b57; /* SeaGreen */
+  color: #2e8b57;
   font-weight: bold;
 }
+
 .grade-b {
-  color: #4682b4; /* SteelBlue */
+  color: #4682b4;
 }
+
 .grade-c {
-  color: #d4a017; /* Goldenrod */
+  color: #d4a017;
 }
+
 .grade-d {
-  color: #cd5c5c; /* IndianRed */
+  color: #cd5c5c;
 }
+
 .grade-f {
-  color: #b22222; /* FireBrick */
+  color: #b22222;
 }
