@@ -2,7 +2,6 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 24px;
   padding: 0;
   margin: 0 auto;
   max-width: 800px;
@@ -86,6 +85,51 @@
   margin: 1rem 0;
   border: none;
   border-top: 1px solid #ccc;
+}
+
+/* Opening Details of Transcripts */
+
+summary {
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #005a9e;
+  list-style: none;
+}
+
+summary::marker {
+  display: none;
+}
+
+details[open] summary {
+  color: #007acc;
+}
+
+/* Summary styling with arrow */
+.project summary {
+  cursor: pointer;
+  font-size: 1.05rem;
+  color: #005a9e;
+  position: relative;
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.project summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s ease;
+}
+
+.project details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Optional: Style link inside summary */
+.project summary a {
+  font-weight: normal;
+  font-size: 0.95rem;
+  margin-left: 8px;
 }
 
 /* Grade colors */
