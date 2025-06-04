@@ -1,0 +1,45 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+/* GitHub Icons */
+
+.github-icon {
+  position: absolute;
+  top: 0.4em;
+  right: 0.7em;
+  font-size: 24px;
+  color: black;
+  transition: transform 0.2s;
+  z-index: 1;
+}
+
+.github-icon i {
+  display: block;
+  line-height: 1; /* removes excess top/bottom space */
+}
+
+/* For Home Page */
+
+.project a:hover {
+  color: #1b2024;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.project a.github-icon {
+  font-size: 30px;
+}
+
+/* For School Pages */
+
+.github-icon:hover,
+.onu-classes .class a:hover,
+.class a:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: #1b2024;
+  text-decoration: none;
+}
+
+.class a.github-icon {
+  top: -0.5em;
+}

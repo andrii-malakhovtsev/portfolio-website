@@ -11,6 +11,7 @@
 }
 
 .class {
+  position: relative;
   border-left: 4px solid #b22222;
   padding: 1em;
   margin-bottom: 1.5em;
@@ -45,5 +46,3 @@
 .class a:hover {
   text-decoration: underline;
 }
-
-
