@@ -1,0 +1,151 @@
+/* Adjust project section layout */
+.projects.resources {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Style project containers */
+.project.resource {
+  border-radius: 6px;
+}
+
+/* Link appearance */
+.project.resource > a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #005a9e;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Make sure paragraph doesn't introduce extra spacing */
+.project.resource p {
+  margin: 0.5rem 0 0 0;
+}
+
+.project.resource > a:hover {
+  text-decoration: underline;
+}
+
+/* Typography for category labels */
+.project.resource p strong {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  color: #333;
+  border-left: 4px solid #007acc;
+  padding-left: 8px;
+}
+
+/* List enhancements */
+.project.resource ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project.resource ul li {
+  margin-bottom: 0.3rem;
+  list-style-type: disc;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+/* Grade highlight hooks */
+.project.resource ul li::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.project.resource ul li:has(> span.grade-A) {
+  color: #2e7d32;
+}
+
+.project.resource ul li:has(> span.grade-B) {
+  color: #1565c0;
+}
+
+.project.resource ul li:has(> span.grade-C),
+.project.resource ul li:has(> span.grade-D) {
+  color: #ef6c00;
+}
+
+/* Divider styling */
+.project.resource hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Opening Details of Transcripts */
+
+summary {
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #005a9e;
+  list-style: none;
+}
+
+summary::marker {
+  display: none;
+}
+
+details[open] summary {
+  color: #007acc;
+}
+
+/* Summary styling with arrow */
+.project.resource summary {
+  cursor: pointer;
+  font-size: 1.05rem;
+  color: #005a9e;
+  position: relative;
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.project.resource summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s ease;
+}
+
+.project.resource details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Optional: Style link inside summary */
+.project.resource summary a {
+  font-weight: normal;
+  font-size: 0.95rem;
+  margin-left: 8px;
+}
+
+/* Grade colors */
+.grade-a {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.grade-b {
+  color: #4682b4;
+}
+
+.grade-c {
+  color: #d4a017;
+}
+
+.grade-d {
+  color: #cd5c5c;
+}
+
+.grade-f {
+  color: #b22222;
+}

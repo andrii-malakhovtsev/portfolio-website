@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Header */
+header {
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 200px;
+  color: #fff;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  color: #9be1ff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1e1e2f;
+  color: #ccc;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
+
+/* Navigation Tabs */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #367ab3;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-button {
+  text-decoration: none;
+  padding: 0.5rem 1.2rem;
+  background-color: #65aeeb;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: #a5cef0;
+  color: #003c3c;
+  transform: translateY(-2px);
+}
+
+.nav-button.active {
+  background-color: #1d96f9;
+}
+
+.navbar.schools-nav {
+  background-color: #1e1e1e;
+}
+
+.navbar.schools-nav .nav-button {
+  background-color: #818182;
+}
+
+#sinclair-link:hover,
+#sinclair-link.active  {
+  color: white;
+  background-color: #982e29;
+}
+
+#onu-link:hover,
+#onu-link.active {
+  color: #7ea9d4;
+  background-color: white;
+}
+
+#wsu-link:hover,
+#wsu-link.active  {
+  color: #d6b46a;
+  background-color: #3e693c;
+}
