@@ -6,10 +6,12 @@ import ONU from './pages/education/ONU'
 import Sinclair from './pages/education/Sinclair'
 import WSU from './pages/education/WSU'
 import Resources from './pages/Resources'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
     <Header />
       <Routes>
         <Route path="/" element={<Home />} />
