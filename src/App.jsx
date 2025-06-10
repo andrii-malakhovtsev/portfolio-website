@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
+    <div className="app-container">
     <BrowserRouter>
     <ScrollToTop />
     <Header />
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </div>
   )
 }
 

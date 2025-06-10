@@ -4,6 +4,21 @@
   margin: 0;
   padding: 0;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root, .app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
