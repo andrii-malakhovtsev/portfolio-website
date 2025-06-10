@@ -3,22 +3,14 @@ import { Link } from 'react-router-dom'
 import '../../styles/school/school-common.css'
 import '../../styles/school/school-onu.css'
 import '../../styles/github-icons.css'
+import SchoolsNav from '../../components/SchoolNav'
+import MainNavbar from '../../components/MainNavbar'
 
 export default function ONU() {
   return (
     <>
-      <nav className="navbar">
-        <Link to="/" className="nav-button">Home</Link>
-        <Link to="/education/sinclair" className="nav-button active">Education</Link>
-        <Link to="/resources" className="nav-button">Resources</Link>
-      </nav>
-
-      <nav className="navbar schools-nav">
-        <Link to="/education/onu/" class="nav-button active" id="onu-link">ONU</Link>
-        <Link to="/education/sinclair/" class="nav-button" id="sinclair-link">Sinclair</Link>
-        <Link to="/education/wrightstate/" class="nav-button" id="wsu-link">WSU</Link>
-      </nav>
-
+      <MainNavbar />
+      <SchoolsNav />
       <main class="container">
         <section class="intro">
           <h2>

@@ -2,16 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/projects.css'
 import '../styles/resources.css'
+import MainNavbar from '../components/MainNavbar'
 
 export default function Resources() {
   return (
     <>
-      <nav class="navbar">
-        <Link to="/" className="nav-button">Home</Link>
-        <Link to="/education/sinclair" className="nav-button">Education</Link>
-        <Link to="/resources" className="nav-button active">Resources</Link>
-      </nav>
-
+      <MainNavbar />
       <main class="container">
         <section class="projects resources">
           <div class="project resource">

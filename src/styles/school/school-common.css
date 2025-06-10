@@ -1,3 +1,7 @@
+.schools-nav.navbar {
+  position: sticky;
+}
+
 .classes {
   padding: 2em;
   background-color: #fff5f5;

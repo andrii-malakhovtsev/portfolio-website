@@ -4,6 +4,14 @@
   margin: 0;
   padding: 0;
 }
+
+/* Header and Footer sticky */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -19,6 +27,8 @@ html, body {
 footer {
   margin-top: auto;
 }
+
+/* Body */
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

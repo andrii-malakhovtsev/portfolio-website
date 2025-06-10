@@ -2,16 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/projects.css'
 import '../styles/github-icons.css'
+import MainNavbar from '../components/MainNavbar'
 
 export default function Home() {
   return (
     <>
-      <nav className="navbar">
-        <Link to="/" className="nav-button active">Home</Link>
-        <Link to="/education/sinclair" className="nav-button">Education</Link>
-        <Link to="/resources" className="nav-button">Resources</Link>
-      </nav>
-
+      <MainNavbar />
       <main className="container">
         <section className="intro">
           <h2>About Me</h2>
