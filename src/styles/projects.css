@@ -37,3 +37,19 @@
 .projects h2 {
   text-align: center;
 }
+
+/* Phone Support */
+@media (max-width: 768px) {
+  .project img {
+    max-height: 300px;
+  }  
+
+  .project h3 {
+    max-width: 80%;
+    word-break: break-word;
+  }
+
+  .project a {
+    font-size: 0.9rem;
+  }
+}
