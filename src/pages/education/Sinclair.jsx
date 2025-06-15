@@ -39,6 +39,12 @@ export default function Sinclair() {
             <p><strong>Technologies:</strong> C++</p>
             <a href="https://github.com/andrii-malakhovtsev/cis-2207" class="github-icon" target="_blank"><i class="fab fa-github"></i></a>
           </div>
+
+          <div class="class">
+            <h3>CIS 2165 – Database Management</h3>
+            <p>Design and develop a simple database and implement a portion of this application including forms, queries and reports. Emphasis on database design techniques, normalization and the SQL database language.</p>
+            <p><strong>Technologies:</strong> SQL, MS Access</p>
+          </div>
         
           <div class="class">
             <h3>CIS 2217 – Java Software Development II</h3>

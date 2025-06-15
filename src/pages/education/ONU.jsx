@@ -59,6 +59,11 @@ export default function ONU() {
           </div>
 
           <div class="class">
+            <h3>Summer credited practice on SQL-database</h3>
+            <p><strong>Technologies:</strong> PostgreSQL</p>
+          </div>
+
+          <div class="class">
             <h3>Web Technology and Web Design</h3>
             <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
           </div>
