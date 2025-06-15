@@ -25,6 +25,7 @@ export default function Home() {
             <h3>Quarterly Sales</h3>
             <p>Database-like app to monitor, add, edit and create sales or employees that are making them.</p>
             <p><strong>Technologies:</strong> C#, ASP.NET</p>
+            <p><strong>OS:</strong> Cross-platform</p>
             <img src="images/projects/quarterly_sales.png" alt="Quarterly Sales App image" />
             <a href="https://github.com/andrii-malakhovtsev/quarterly-sales" className="github-icon" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
@@ -35,6 +36,7 @@ export default function Home() {
             <h3>Numerical Methods Library</h3>
             <p>A C# library for solving linear equations, root finding, LU decomposition, and more.</p>
             <p><strong>Technologies:</strong> C#, .NET</p>
+            <p><strong>OS:</strong> Cross-platform, (Windows for graphs)</p>
             <img src="images/projects/function_graphic.png" alt="Function graphic image" />
             <a href="https://github.com/andrii-malakhovtsev/numerical-methods-library" className="github-icon" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
@@ -45,6 +47,7 @@ export default function Home() {
             <h3>Game Query</h3>
             <p>Windows database-like app that helps friends choose multiplayer games they can play together.</p>
             <p><strong>Technologies:</strong> C#, WinForms</p>
+            <p><strong>OS:</strong> Windows</p>
             <img src="images/projects/player_list.png" alt="Player List image" />
             <img src="images/projects/games_list.png" alt="Games List image" />
             <a href="https://github.com/andrii-malakhovtsev/game-query-winforms" className="github-icon" target="_blank" rel="noopener noreferrer">
@@ -56,6 +59,7 @@ export default function Home() {
             <h3>Mechanism Kinematics</h3>
             <p>Windows app that simulates mechanical systems.</p>
             <p><strong>Technologies:</strong> C#, MVP pattern, WinForms, Blazor (in progress)</p>
+            <p><strong>OS:</strong> Windows</p>
             <img src="images/projects/mechanism_kinematics.png" alt="Mechanism Kinematics image" />
             <a href="https://github.com/andrii-malakhovtsev/mechanism-kinematics-winforms" className="github-icon" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
@@ -66,6 +70,7 @@ export default function Home() {
             <h3>"Sea Battle" Game</h3>
             <p>Classic "Sea Battle" game with an intelligent enemy AI for Windows.</p>
             <p><strong>Technologies:</strong> C#, WinForms</p>
+            <p><strong>OS:</strong> Windows</p>
             <img src="images/projects/sea_battle.png" alt="Sea Battle Game image" />
             <a href="https://github.com/andrii-malakhovtsev/sea-battle-game-winforms" className="github-icon" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
@@ -76,6 +81,7 @@ export default function Home() {
             <h3>Clipboard Image to Text</h3>
             <p>Tool that converts copied screenshots to text using Tesseract OCR.</p>
             <p><strong>Technologies:</strong> Python, Tesseract OCR</p>
+            <p><strong>OS:</strong> Windows, macOS</p>
             <a href="https://github.com/andrii-malakhovtsev/clipboard-image-to-text" className="github-icon" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
@@ -84,7 +90,8 @@ export default function Home() {
           <div className="project">
             <h3>Local Client-Server Interaction</h3>
             <p>C-based project demonstrating client-server behavior using UNIX shell variables.</p>
-            <p><strong>Technologies:</strong> C, Linux, Shell</p>
+            <p><strong>Technologies:</strong> C, Shell</p>
+            <p><strong>OS:</strong> Linux</p>
             <a href="https://github.com/andrii-malakhovtsev/local-client-server-linux" className="github-icon" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
