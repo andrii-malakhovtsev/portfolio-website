@@ -2,6 +2,17 @@
 
 /* GitHub Icons */
 
+.class a.github-icon {
+  display: inline-block;
+  margin-top: 1em;
+  color: #b22222;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(216, 0, 0, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
 .github-icon {
   position: absolute;
   top: 0.4em;
@@ -32,8 +43,8 @@
 /* For School Pages */
 
 .github-icon:hover,
-.onu-classes .class a:hover,
-.class a:hover {
+.onu-classes .class a.github-icon:hover,
+.class a.github-icon:hover {
   transform: scale(1.1);
   color: white;
   background-color: #1b2024 !important;
