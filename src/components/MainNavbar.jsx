@@ -13,7 +13,7 @@ export default function MainNavbar() {
         Home
       </Link>
       <Link
-        to="/education/sinclair"
+        to="/education"
         className={`nav-button${location.pathname.startsWith('/education') ? ' active' : ''}`}
       >
         Education

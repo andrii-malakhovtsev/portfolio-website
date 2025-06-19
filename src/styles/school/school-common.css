@@ -1,3 +1,14 @@
+#onu,
+#sinclair,
+#wrightstate {
+  scroll-margin-top: 100px; /* match your navbar height */
+}
+
+#wrightstate {
+  padding-bottom: 50px; /* Enough to push it into view */
+}
+
+
 .schools-nav.navbar {
   position: sticky;
 }
